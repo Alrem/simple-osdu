@@ -35,10 +35,6 @@ output "GKE_version" {
   value = module.osdu.gke_version
 }
 
-output "are_services_deployed" {
-  value = var.services_deployment_enabled
-}
-
 output "helm_custom_values_file_path" {
   value = module.osdu.helm_values_filename
 }
